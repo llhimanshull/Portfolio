@@ -1,0 +1,105 @@
+body{
+  background-color: #D8DAC5;
+  }
+
+
+.Himanshu {
+background-color: transparent;
+display: flex;
+font-family:'Redressed',cursive;
+font-size: 33px;
+position:absolute;
+top:2.5%;
+left:47%;
+
+}
+
+.Home {
+font-family: 'Italiana', cursive;
+font-size: 17px;
+background-color: transparent;
+display:flex;
+position:absolute;
+top:4.5%;
+left:3%
+
+}
+
+.About{
+font-family: 'Italiana', cursive;
+font-size: 17px;
+background-color: transparent;
+display:flex;
+position:absolute;
+top:4.5%;
+left:15%
+}
+
+.Projects{
+font-family: 'Italiana', cursive;
+font-size: 17px;
+background-color: transparent;
+display:flex;
+position:absolute;
+top:4.5%;
+left:28%
+}
+
+.Download-Resume{
+font-family: 'Italiana', cursive;
+font-size: 17px;
+white-space: pre-line;
+background-color: transparent;
+position:absolute;
+top:0.85%;
+left:92%
+}
+
+.about-page-button{
+  position: absolute;
+  top: 348px;
+  left: 1410px;
+  z-index: 9999;
+  width: 65px;
+  height: 65px;
+}
+.next-button{
+  width: 65px;
+  height: 65px;
+  transition: transform 0.3s ease-in-out;
+}
+.about-page-button:hover .next-button {
+  transform: scale(1.2);
+}
+
+.instagram-button,.linkedin-button,.facebook-button{
+  position: absolute;
+  z-index: 9999;
+  top: 93%;
+  transition: all ease-in-out 0.3s;
+}
+.facebook-button{
+  left: 38%;
+}
+.instagram-button{
+  left: 48%;
+}
+.instagram-button:hover{
+  transform: translateY(-10px);
+}
+.linkedin-button{
+  left: 58%;
+}
+.linkedin-button:hover{
+  transform: translateY(-10px);
+}
+.facebook-button:hover{
+  transform: translateY(-10px);
+}
+
+
+
+
+
+
+
